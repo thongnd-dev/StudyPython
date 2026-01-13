@@ -198,7 +198,10 @@ elif st.session_state.phase == "INFO":
                     # TỔNG HỢP VÀ GỢI Ý NGÀNH TỪ CSV
                     client = OpenAI(api_key=api_key)
                     final_data = f"Trắc nghiệm: {st.session_state.answers}\nDanh sách ngành nghề từ CSV:\n{career_list_text}"
-                    system_msg = (f"Bạn là chuyên gia tư vấn hướng nghiêp AI. Chỉ được chọn tối đa 3 ngành phù hợp nhất từ danh sách cung cấp. Giải thích lý do dự trên các câu hỏi đã trao đổi."
+                    system_msg = (f"Bạn là chuyên gia tư vấn hướng nghiêp AI."
+                                  f" Chỉ được chọn tối đa 3 ngành phù hợp nhất từ danh sách cung cấp."
+                                  f"Giải thích lý do dự trên các câu hỏi đã trao đổi."
+                                  f"Chỉ đưa ra 1 câu hỏi mở rộng để thu thập thông tin."
                                   f"- Từ thời điểm này, bạn CHUYỂN SANG CHẾ ĐỘ LẮNG NGHE.")
 
                     safe_final_data = sanitize_input(final_data)
