@@ -1,0 +1,342 @@
+Ma_nganh,Ten_nganh,Nhom_nganh_Bo,Mo_ta_ngan,Nhom_ky_nang,Xu_huong_viec_lam
+7310101,Kinh tế,Kinh tế học,Nghiên cứu các quy luật vận động của nền kinh tế và làm cơ sở cho hoạch định chính sách.,Phân tích; Tư duy kinh tế,Cao
+7310105,Kinh tế phát triển,Kinh tế học,Nghiên cứu tăng trưởng kinh tế; phát triển bền vững và chuyển dịch cơ cấu.,Phân tích chính sách; Nghiên cứu,Trung bình
+7310106,Kinh tế quốc tế,Kinh tế học,Nghiên cứu quan hệ kinh tế giữa các quốc gia và hội nhập kinh tế toàn cầu.,Ngoại ngữ; Phân tích thị trường,Cao
+7340301,Kế toán,Kinh doanh và quản lý,"Ghi chép,  xử lý và cung cấp thông tin tài chính cho tổ chức.",Kế toán; Phân tích số liệu,Cao
+7340302,Kiểm toán,Kinh doanh và quản lý,Kiểm tra và đánh giá tính trung thực của báo cáo tài chính.,Phân tích; Tuân thủ,Cao
+7340201,Tài chính - Ngân hàng,Kinh doanh và quản lý,"Quản lý tài chính và hoạt động ngân hàng,  thị trường tiền tệ.",Phân tích tài chính; Quản lý rủi ro,Cao
+7340202,Bảo hiểm,Kinh doanh và quản lý,Quản lý rủi ro và kinh doanh các sản phẩm bảo hiểm.,Đánh giá rủi ro; Tư vấn,Trung bình
+7340101,Quản trị kinh doanh,Kinh doanh và quản lý,Quản lý và điều hành hoạt động sản xuất kinh doanh của doanh nghiệp.,Lãnh đạo; Chiến lược,Cao
+7340115,Marketing,Kinh doanh và quản lý,"Nghiên cứu thị trường và xây dựng chiến lược marketing, thương hiệu.",Sáng tạo; Phân tích thị trường,Cao
+7340120,Kinh doanh quốc tế,Kinh doanh và quản lý,Tổ chức và quản lý hoạt động kinh doanh trong môi trường quốc tế.,Ngoại ngữ; Đàm phán,Cao
+7480201,Công nghệ thông tin,Công nghệ thông tin,Phát triển và quản lý hệ thống phần mềm và hạ tầng CNTT.,Lập trình; Giải quyết vấn đề,Cao
+7480101,Khoa học máy tính,Công nghệ thông tin,"Nghiên cứu thuật toán,  dữ liệu và hệ thống tính toán.",Logic; Thuật toán,Cao
+7480103,Kỹ thuật phần mềm,Công nghệ thông tin,"
+Thiết kế, phát triển và bảo trì các hệ thống phần mềm.",Lập trình; Quản lý dự án,Cao
+7480107,Trí tuệ nhân tạo,Công nghệ thông tin,"Nghiên cứu và ứng dụng học máy,  học sâu và AI.",Toán; Lập trình; ML,Rất cao
+7480109,Khoa học dữ liệu,Công nghệ thông tin,Phân tích dữ liệu lớn nhằm hỗ trợ ra quyết định.,Phân tích dữ liệu; Thống kê,Rất cao
+7510205,Công nghệ kỹ thuật ô tô,Kỹ thuật cơ khí,"Thiết kế,  vận hành và bảo dưỡng các hệ thống ô tô.",Kỹ thuật; Cơ khí,Cao
+7520103,Kỹ thuật cơ khí,Kỹ thuật cơ khí,"Thiết kế và chế tạo các hệ thống,  thiết bị cơ khí.",Cơ khí; Tính toán,Cao
+7520216,Kỹ thuật điều khiển và tự động hóa,Kỹ thuật điện - điện tử,Thiết kế và vận hành các hệ thống điều khiển tự động.,Điều khiển; Lập trình,Cao
+7580101,Kiến trúc,Kiến trúc và xây dựng,Thiết kế công trình kiến trúc và không gian đô thị.,Thiết kế; Sáng tạo,Trung bình
+7580201,Kỹ thuật xây dựng,Kiến trúc và xây dựng,"Thiết kế,  thi công và quản lý công trình xây dựng.",Kỹ thuật; Quản lý,Cao
+7720101,Y khoa,Sức khỏe,"Đào tạo bác sĩ chẩn đoán,  điều trị và phòng bệnh.",Y khoa; Lâm sàng,Cao
+7720201,Dược học,Sức khỏe,"Nghiên cứu,  sản xuất và sử dụng thuốc an toàn,  hiệu quả.",Hóa dược; Kiểm nghiệm,Cao
+7720301,Điều dưỡng,Sức khỏe,Chăm sóc và hỗ trợ điều trị cho người bệnh.,Y tế; Giao tiếp,Cao
+7720501,Y tế công cộng,Sức khỏe,Phòng bệnh và nâng cao sức khỏe cộng đồng.,Phân tích; Quản lý y tế,Trung bình
+7140201,Giáo dục Mầm non,Khoa học giáo dục,Giáo dục và chăm sóc trẻ em lứa tuổi mầm non.,Sư phạm; Tâm lý,Trung bình
+7140202,Giáo dục Tiểu học,Khoa học giáo dục,Giảng dạy và giáo dục học sinh bậc tiểu học.,Sư phạm; Giao tiếp,Trung bình
+7220201,Ngôn ngữ Anh,Ngôn ngữ và văn hóa,Đào tạo sử dụng tiếng Anh và kiến thức văn hóa.,Ngoại ngữ; Giao tiếp,Cao
+7810101,Du lịch,Dịch vụ du lịch,Tổ chức và quản lý hoạt động du lịch và lữ hành.,Dịch vụ; Giao tiếp,Trung bình
+7810201,Quản trị khách sạn,Dịch vụ du lịch,"Quản lý và vận hành cơ sở lưu trú, khách sạn.",Quản lý; Dịch vụ,Trung bình
+7640101,Thú y,Nông nghiệp,"Chẩn đoán,  điều trị bệnh và quản lý sức khỏe vật nuôi.",Y sinh; Chẩn đoán,Trung bình
+7310201,Chính trị học,Khoa học chính trị,"Nghiên cứu hệ thống chính trị,  quyền lực nhà nước và các học thuyết chính trị.",Phân tích chính sách; Tư duy phản biện,Trung bình
+7310202,Xây dựng Đảng và chính quyền nhà nước,Khoa học chính trị,"Đào tạo kiến thức về tổ chức,  vận hành bộ máy Đảng và Nhà nước.",Quản lý nhà nước; Chính sách,Ổn định
+7310205,Quản lý nhà nước,Khoa học chính trị,Trang bị kiến thức quản lý hành chính và điều hành khu vực công.,Quản lý; Pháp luật,Ổn định
+7310301,Xã hội học,Xã hội học,Nghiên cứu cấu trúc xã hội và hành vi xã hội của con người.,Nghiên cứu xã hội; Phân tích,Trung bình
+7310401,Tâm lý học,Tâm lý học,"Nghiên cứu hành vi,  cảm xúc và hoạt động tâm lý của con người.",Phân tích tâm lý; Giao tiếp,Cao
+7320101,Báo chí,Báo chí và truyền thông,"Đào tạo nghiệp vụ báo chí,  thu thập và xử lý thông tin truyền thông.",Viết; Truyền thông,Cao
+7320104,Truyền thông đa phương tiện,Báo chí và truyền thông,Sản xuất nội dung truyền thông trên nền tảng số và đa phương tiện.,Sáng tạo nội dung; Công nghệ,Cao
+7320115,Quan hệ công chúng,Báo chí và truyền thông,Xây dựng hình ảnh và quản lý quan hệ truyền thông cho tổ chức.,Giao tiếp; Truyền thông,Cao
+7340404,Quản trị nhân lực,Kinh doanh và quản lý,"Quản lý nguồn nhân lực,  tuyển dụng và phát triển nhân sự.",Quản lý nhân sự; Giao tiếp,Cao
+7340122,Thương mại điện tử,Kinh doanh và quản lý,Quản lý hoạt động kinh doanh trên nền tảng số và thương mại điện tử.,Kinh doanh số; Công nghệ,Cao
+7380101,Luật,Pháp luật,Nghiên cứu và áp dụng pháp luật trong quản lý và đời sống xã hội.,Pháp lý; Tư duy logic,Ổn định
+7380107,Luật kinh tế,Pháp luật,Áp dụng pháp luật trong hoạt động kinh doanh và thương mại.,Pháp luật kinh doanh; Phân tích,Cao
+7420201,Công nghệ sinh học,Sinh học ứng dụng,"Nghiên cứu và ứng dụng công nghệ sinh học trong y tế,  nông nghiệp.",Sinh học; Thí nghiệm,Cao
+7440301,Khoa học môi trường,Khoa học môi trường,Nghiên cứu bảo vệ môi trường và phát triển bền vững.,Phân tích môi trường; Nghiên cứu,Trung bình
+7480108,Công nghệ thông tin ứng dụng,Công nghệ thông tin,"Ứng dụng CNTT vào quản lý,  sản xuất và dịch vụ.",Lập trình ứng dụng; CNTT,Cao
+7510301,Công nghệ kỹ thuật điện, điện tử,"Kỹ thuật điện - điện tử, Thiết kế, vận hành và bảo trì hệ thống điện,  điện tử.",Kỹ thuật điện; Phân tích,Cao
+7510302,Công nghệ kỹ thuật điện tử - viễn thông,Kỹ thuật điện - điện tử,Phát triển và vận hành hệ thống viễn thông và mạng.,Viễn thông; Mạng,Cao
+7520201,Kỹ thuật điện,Kỹ thuật điện - điện tử,Thiết kế và quản lý hệ thống cung cấp điện.,Điện; Điều khiển,Cao
+7520207,Kỹ thuật điện tử - viễn thông,Kỹ thuật điện - điện tử,Thiết kế hệ thống điện tử và truyền thông.,Điện tử; Viễn thông,Cao
+7580108,Thiết kế nội thất,Kiến trúc và xây dựng,Thiết kế không gian nội thất công trình dân dụng và thương mại.,Thiết kế; Mỹ thuật,Trung bình
+7810301,Quản trị dịch vụ du lịch và lữ hành,Dịch vụ du lịch,"Tổ chức,  điều hành tour và dịch vụ du lịch.",Điều hành; Giao tiếp,Trung bình
+7220204,Ngôn ngữ Trung Quốc,Ngôn ngữ và văn hóa,Đào tạo tiếng Trung và hiểu biết văn hóa Trung Quốc.,Ngoại ngữ; Văn hóa,Cao
+7220209,Ngôn ngữ Nhật,Ngôn ngữ và văn hóa,Đào tạo tiếng Nhật phục vụ giao tiếp và công việc quốc tế.,Ngoại ngữ; Giao tiếp,Cao
+7220210,Ngôn ngữ Hàn Quốc,Ngôn ngữ và văn hóa,Đào tạo tiếng Hàn và kiến thức văn hóa – xã hội Hàn Quốc.,Ngoại ngữ; Văn hóa,Cao
+7240101,Mỹ thuật,Mỹ thuật,Đào tạo sáng tác và nghiên cứu mỹ thuật.,Sáng tạo; Nghệ thuật,Trung bình
+7210403,Thiết kế đồ họa,Thiết kế và nghệ thuật,"Thiết kế hình ảnh,  nhận diện thương hiệu và sản phẩm đồ họa.",Thiết kế; Sáng tạo,Cao
+7210404,Thiết kế thời trang,Thiết kế và nghệ thuật,Thiết kế trang phục và phát triển sản phẩm thời trang.,Thiết kế; Mỹ thuật,Trung bình
+7210409,Thiết kế công nghiệp,Thiết kế và nghệ thuật,"Thiết kế sản phẩm công nghiệp gắn với công năng,  thẩm mỹ và sản xuất hàng loạt.",Thiết kế sản phẩm; Sáng tạo,Trung bình
+7220203,Ngôn ngữ Pháp,Ngôn ngữ và văn hóa,Đào tạo tiếng Pháp và kiến thức văn hóa – xã hội Pháp ngữ.,Ngoại ngữ; Giao tiếp,Trung bình
+7220205,Ngôn ngữ Đức,Ngôn ngữ và văn hóa,Đào tạo tiếng Đức phục vụ học tập và làm việc trong môi trường quốc tế.,Ngoại ngữ; Giao tiếp,Trung bình
+7220206,Ngôn ngữ Nga,Ngôn ngữ và văn hóa,Đào tạo tiếng Nga và kiến thức văn hóa – xã hội Nga.,Ngoại ngữ; Văn hóa,Trung bình
+7220212,Ngôn ngữ Ả Rập,Ngôn ngữ và văn hóa,"Đào tạo tiếng Ả Rập phục vụ ngoại giao,  thương mại và nghiên cứu.",Ngoại ngữ; Văn hóa,Ngách
+7220214,Ngôn ngữ Thái Lan,Ngôn ngữ và văn hóa,Đào tạo tiếng Thái và hiểu biết văn hóa – xã hội Thái Lan.,Ngoại ngữ; Giao tiếp,Ngách
+7220215,Ngôn ngữ Khmer,Ngôn ngữ và văn hóa,Đào tạo tiếng Khmer và văn hóa Campuchia.,Ngoại ngữ; Văn hóa,Ngách
+7310501,Địa lý học,Khoa học trái đất,"Nghiên cứu không gian địa lý, tài nguyên và các quá trình tự nhiên – xã hội.",Phân tích không gian; Nghiên cứu,Trung bình
+7310601,Quốc tế học,Khoa học liên ngành,"Nghiên cứu các vấn đề quốc tế,  khu vực và toàn cầu.",Phân tích quốc tế; Ngoại ngữ,Trung bình
+7310701,Nhân học,Xã hội học,"Nghiên cứu văn hóa, xã hội và con người trong các cộng đồng.",Nghiên cứu định tính; Phân tích,Ngách
+7340116,Bất động sản,Kinh doanh và quản lý,"Quản lý,  kinh doanh và phát triển dự án bất động sản.",Phân tích thị trường; Đàm phán,Cao
+7340121,Quản trị du lịch và lữ hành,Kinh doanh và quản lý,Quản lý doanh nghiệp du lịch và tổ chức hoạt động lữ hành.,Quản lý dịch vụ; Điều phối,Trung bình
+7340125,Quản trị logistics,Kinh doanh và quản lý,"Quản lý chuỗi cung ứng,  logistics và vận tải.",Phân tích chuỗi cung ứng; Quản lý,Cao
+7340126,Quản trị kinh doanh thương mại,Kinh doanh và quản lý,Tổ chức và quản lý hoạt động thương mại trong nước và quốc tế.,Kinh doanh; Phân tích,Cao
+7420101,Sinh học,Sinh học,Nghiên cứu các quy luật sinh học và sự sống.,Sinh học; Thí nghiệm,Trung bình
+7440102,Vật lý học,Vật lý,Nghiên cứu các quy luật vật lý và ứng dụng.,Toán – Vật lý; Phân tích,Trung bình
+7440201,Địa chất học,Khoa học trái đất,Nghiên cứu cấu trúc Trái đất và tài nguyên địa chất.,Khảo sát; Phân tích,Ngách
+7460101,Toán học,Toán học,Nghiên cứu lý thuyết và ứng dụng toán học.,Tư duy logic; Phân tích,Cao
+7460108,Toán ứng dụng,Toán học,"Ứng dụng toán học vào kinh tế,  kỹ thuật và công nghệ.",Mô hình hóa; Phân tích,Cao
+7480112,Hệ thống thông tin,Công nghệ thông tin,Thiết kế và quản lý hệ thống thông tin phục vụ tổ chức.,Phân tích hệ thống; CNTT,Cao
+7510202,Công nghệ chế tạo máy,Kỹ thuật cơ khí,"Thiết kế và chế tạo máy móc,  thiết bị công nghiệp.",Cơ khí; Thiết kế,Cao
+7510605,Logistics và quản lý chuỗi cung ứng,Kỹ thuật – quản lý,Tổ chức và tối ưu hóa chuỗi cung ứng và logistics.,Phân tích vận hành; Quản lý,Cao
+7520102,Kỹ thuật cơ điện tử,Kỹ thuật cơ khí – điện tử,Thiết kế và vận hành hệ thống cơ điện tử.,Cơ điện tử; Lập trình,Cao
+7520114,Kỹ thuật robot,Kỹ thuật cơ khí – tự động hóa,"Thiết kế,  lập trình và vận hành robot công nghiệp.",Tự động hóa; Lập trình,Rất cao
+7520218,Kỹ thuật năng lượng,Kỹ thuật năng lượng,Thiết kế và quản lý hệ thống năng lượng.,Năng lượng; Phân tích,Cao
+7580301,Kinh tế xây dựng,Kiến trúc và xây dựng,"Quản lý chi phí,  tài chính và hiệu quả dự án xây dựng.",Phân tích chi phí; Quản lý,Cao
+7580205,Kỹ thuật xây dựng công trình giao thông,Kiến trúc và xây dựng,"Thiết kế, thi công và quản lý các công trình giao thông như đường bộ, cầu và hạ tầng vận tải.",Kỹ thuật giao thông; Quản lý dự án,Cao
+7580210,Kỹ thuật xây dựng công trình thủy,Kiến trúc và xây dựng,"Thiết kế và thi công các công trình thủy lợi, thủy điện và hệ thống cấp thoát nước.",Thủy lực; Kỹ thuật xây dựng,Trung bình
+7580211,Kỹ thuật cơ sở hạ tầng,Kiến trúc và xây dựng,"Thiết kế, quản lý và vận hành hệ thống hạ tầng kỹ thuật đô thị và khu dân cư.",Hạ tầng đô thị; Quản lý,Cao
+7580212,Quản lý xây dựng,Kiến trúc và xây dựng,"Quản lý tiến độ, chi phí, chất lượng và an toàn trong các dự án xây dựng.",Quản lý dự án; Phân tích,Cao
+7810202,Quản trị nhà hàng và dịch vụ ăn uống,Dịch vụ du lịch,"Tổ chức và quản lý hoạt động kinh doanh nhà hàng, dịch vụ ăn uống và trải nghiệm khách hàng.",Quản lý dịch vụ; Giao tiếp,Trung bình
+7810203,Quản trị sự kiện,Dịch vụ du lịch,"Lập kế hoạch, tổ chức và điều phối các sự kiện văn hóa, du lịch và doanh nghiệp.",Tổ chức sự kiện; Điều phối,Trung bình
+7810401,Quản trị khu resort và giải trí,Dịch vụ du lịch,"Quản lý vận hành khu nghỉ dưỡng, khu vui chơi giải trí và dịch vụ du lịch tổng hợp.",Quản lý dịch vụ; Điều hành,Trung bình
+7810102,Hướng dẫn du lịch,Dịch vụ du lịch,"Đào tạo nghiệp vụ hướng dẫn, thuyết minh và tổ chức hoạt động du lịch cho du khách.",Giao tiếp; Thuyết trình,Trung bình
+7320105,Xuất bản,Báo chí và truyền thông,"Tổ chức biên tập, sản xuất, phát hành xuất bản phẩm in và điện tử.",Biên tập; Quản lý nội dung,Trung bình
+7320110,Quảng cáo,Báo chí và truyền thông,"Xây dựng và triển khai chiến dịch quảng cáo, truyền thông cho sản phẩm và thương hiệu.",Sáng tạo; Truyền thông,Cao
+7320116,Truyền thông doanh nghiệp,Báo chí và truyền thông,"Quản lý truyền thông nội bộ, quan hệ báo chí và hình ảnh thương hiệu doanh nghiệp.",Giao tiếp; Chiến lược truyền thông,Cao
+7340117,Quản trị thương hiệu,Kinh doanh và quản lý,"Xây dựng, phát triển và quản trị giá trị thương hiệu của tổ chức và sản phẩm.",Chiến lược thương hiệu; Marketing,Cao
+7340127,Phân tích kinh doanh,Kinh doanh và quản lý,"Phân tích dữ liệu, quy trình và thông tin hỗ trợ ra quyết định kinh doanh.",Phân tích dữ liệu; Tư duy hệ thống,Cao
+7340204,Tài chính quốc tế,Kinh doanh và quản lý,"Quản lý tài chính, dòng vốn và hoạt động đầu tư trong môi trường quốc tế.",Phân tích tài chính; Ngoại ngữ,Cao
+7340205,Ngân hàng,Kinh doanh và quản lý,"Quản lý hoạt động ngân hàng, tín dụng, thanh toán và dịch vụ tài chính.",Nghiệp vụ ngân hàng; Phân tích,Cao
+7340206,Đầu tư tài chính,Kinh doanh và quản lý,"Phân tích và quản lý danh mục đầu tư tài chính trên thị trường vốn.",Phân tích đầu tư; Quản lý rủi ro,Cao
+7480113,Kỹ thuật dữ liệu,Công nghệ thông tin,"Xây dựng, quản lý và khai thác hạ tầng dữ liệu và hệ thống dữ liệu lớn.",Dữ liệu; Lập trình,Rất cao
+7480114,An toàn thông tin,Công nghệ thông tin,"Bảo vệ hệ thống thông tin, dữ liệu và phòng chống các mối đe dọa an ninh mạng.",An ninh mạng; Phân tích,Rất cao
+7480115,Trí tuệ nhân tạo và khoa học dữ liệu,Công nghệ thông tin,"Ứng dụng trí tuệ nhân tạo và khoa học dữ liệu trong phân tích và tự động hóa.",AI; Phân tích dữ liệu,Rất cao
+7480116,Internet vạn vật (IoT),Công nghệ thông tin,"Thiết kế và triển khai hệ thống IoT, thiết bị thông minh và kết nối dữ liệu.",IoT; Lập trình nhúng,Cao
+7510206,Công nghệ kỹ thuật cơ điện tử,Kỹ thuật cơ khí – điện tử,"Thiết kế và vận hành hệ thống tích hợp cơ khí, điện tử và điều khiển tự động.",Cơ điện tử; Điều khiển,Cao
+7510303,Công nghệ kỹ thuật điều khiển và tự động hóa,Kỹ thuật điện – tự động hóa,"Thiết kế, lập trình và vận hành các hệ thống điều khiển tự động trong công nghiệp.",Tự động hóa; Điều khiển,Cao
+7520210,Kỹ thuật máy tính,Kỹ thuật điện – CNTT,"Thiết kế phần cứng, phần mềm và hệ thống máy tính tích hợp.",Phần cứng; Lập trình,Cao
+7520212,Kỹ thuật viễn thông,Kỹ thuật điện – viễn thông,"Thiết kế, vận hành và tối ưu hệ thống viễn thông và truyền dẫn tín hiệu.",Viễn thông; Mạng,Cao
+7580105,Quy hoạch vùng và đô thị,Kiến trúc và xây dựng,"Nghiên cứu và thiết kế quy hoạch phát triển vùng, đô thị và không gian lãnh thổ.",Quy hoạch; Phân tích không gian,Cao
+7580110,Thiết kế đô thị,Kiến trúc và xây dựng,"Thiết kế không gian đô thị, cảnh quan và các khu chức năng đô thị.",Thiết kế đô thị; Sáng tạo,Trung bình
+7580213,Xây dựng công trình ngầm,Kiến trúc và xây dựng,"Thiết kế và thi công các công trình xây dựng ngầm trong đô thị và công nghiệp.",Kỹ thuật xây dựng; An toàn,Cao
+7580214,Xây dựng cầu đường,Kiến trúc và xây dựng,"Thiết kế và thi công cầu, đường bộ và các công trình giao thông liên quan.",Kỹ thuật giao thông; Quản lý dự án,Cao
+7580215,Xây dựng và quản lý hạ tầng đô thị,Kiến trúc và xây dựng,"Thiết kế, vận hành và quản lý hệ thống hạ tầng kỹ thuật đô thị.",Hạ tầng đô thị; Quản lý,Cao
+7580216,Xây dựng công trình biển,Kiến trúc và xây dựng,"Thiết kế và thi công công trình ven biển, ngoài khơi và hạ tầng biển.",Kỹ thuật biển; Xây dựng,Ngách
+7810204,Quản trị du lịch và khách sạn,Dịch vụ du lịch,"Quản lý và điều hành hoạt động du lịch, khách sạn và dịch vụ lưu trú.",Quản lý dịch vụ; Điều hành,Trung bình
+7810205,Quản trị nhà hàng – khách sạn,Dịch vụ du lịch,"Tổ chức và quản lý đồng bộ hoạt động nhà hàng và khách sạn.",Quản lý dịch vụ; Giao tiếp,Trung bình
+7810206,Quản trị dịch vụ giải trí,Dịch vụ du lịch,"Quản lý và phát triển các dịch vụ vui chơi, giải trí và trải nghiệm.",Quản lý dịch vụ; Sáng tạo,Trung bình
+7810302,Văn hóa du lịch,Dịch vụ du lịch,"Nghiên cứu văn hóa, di sản và ứng dụng trong phát triển du lịch.",Nghiên cứu văn hóa; Giao tiếp,Trung bình
+7310801,Khoa học quản lý,Khoa học liên ngành,"Nghiên cứu khoa học quản lý và ứng dụng trong điều hành tổ chức.",Quản lý; Phân tích,Cao
+7310901,Kinh tế số,Kinh tế học,"Nghiên cứu mô hình kinh tế dựa trên nền tảng số và công nghệ số.",Phân tích dữ liệu; Kinh doanh số,Rất cao
+7340405,Quản trị văn phòng,Kinh doanh và quản lý,"Tổ chức và quản lý công việc hành chính, văn phòng và hỗ trợ điều hành.",Quản lý hành chính; Giao tiếp,Ổn định
+7340406,Quản trị công nghệ,Kinh doanh và quản lý,"Quản lý hoạt động nghiên cứu, phát triển và ứng dụng công nghệ.",Quản lý công nghệ; Phân tích,Cao
+7340407,Quản trị đổi mới sáng tạo,Kinh doanh và quản lý,"Quản lý hoạt động đổi mới sáng tạo và phát triển sản phẩm mới.",Đổi mới sáng tạo; Chiến lược,Cao
+7340408,Quản trị dự án,Kinh doanh và quản lý,"Lập kế hoạch, tổ chức và kiểm soát tiến độ các dự án.",Quản lý dự án; Điều phối,Cao
+7340409,Quản trị chuỗi cung ứng,Kinh doanh và quản lý,"Quản lý dòng vật tư, hàng hóa và thông tin trong chuỗi cung ứng.",Chuỗi cung ứng; Phân tích,Cao
+7340410,Quản trị rủi ro,Kinh doanh và quản lý,"Nhận diện, đánh giá và kiểm soát rủi ro trong hoạt động tổ chức.",Quản lý rủi ro; Phân tích,Cao
+7420202,Công nghệ sinh học y dược,Sinh học ứng dụng,"Ứng dụng công nghệ sinh học trong nghiên cứu và sản xuất y dược.",Sinh học; Thí nghiệm,Cao
+7420203,Công nghệ sinh học nông nghiệp,Sinh học ứng dụng,"Ứng dụng công nghệ sinh học trong giống cây trồng và nông nghiệp.",Sinh học; Công nghệ,Trung bình
+7440302,Khoa học vật liệu,Khoa học vật liệu,"Nghiên cứu cấu trúc, tính chất và ứng dụng của vật liệu.",Phân tích vật liệu; Nghiên cứu,Cao
+7440303,Công nghệ vật liệu,Khoa học vật liệu,"Ứng dụng vật liệu mới trong sản xuất và kỹ thuật.",Công nghệ vật liệu; Ứng dụng,Cao
+7480117,Quản lý thông tin,Công nghệ thông tin,"Quản lý, tổ chức và khai thác thông tin trong tổ chức.",Quản lý thông tin; CNTT,Trung bình
+7480118,Hệ thống thông tin quản lý,Công nghệ thông tin,"Thiết kế và vận hành hệ thống thông tin phục vụ quản lý doanh nghiệp.",Phân tích hệ thống; CNTT,Cao
+7480119,Khoa học dữ liệu ứng dụng,Công nghệ thông tin,"Ứng dụng khoa học dữ liệu để phân tích, dự báo và hỗ trợ ra quyết định trong các lĩnh vực.",Phân tích dữ liệu; Thống kê,Rất cao
+7480120,Trí tuệ nhân tạo ứng dụng,Công nghệ thông tin,"Triển khai các giải pháp AI vào sản phẩm, dịch vụ và quy trình nghiệp vụ.",AI; Lập trình,Rất cao
+7480121,An ninh mạng,Công nghệ thông tin,"Bảo vệ hệ thống mạng, dữ liệu và hạ tầng số trước các mối đe dọa an ninh.",An ninh mạng; Phân tích,Rất cao
+7480122,Kỹ thuật phần cứng máy tính,Công nghệ thông tin,"Thiết kế, phát triển và kiểm thử phần cứng và hệ thống máy tính.",Phần cứng; Thiết kế,Cao
+7480123,Công nghệ đa phương tiện,Công nghệ thông tin,"Sản xuất và phát triển nội dung số, hình ảnh, âm thanh và video đa phương tiện.",Sáng tạo nội dung; Công nghệ,Cao
+7510207,Công nghệ chế tạo khuôn mẫu,Kỹ thuật cơ khí,"Thiết kế và chế tạo khuôn mẫu phục vụ sản xuất công nghiệp.",Thiết kế khuôn; Cơ khí,Cao
+7510208,Kỹ thuật cơ khí động lực,Kỹ thuật cơ khí,"Thiết kế, vận hành và bảo dưỡng hệ thống động lực và máy móc.",Cơ khí động lực; Bảo trì,Cao
+7510210,Kỹ thuật hệ thống công nghiệp,Kỹ thuật công nghiệp,"Tối ưu hóa hệ thống sản xuất, vận hành và quản lý công nghiệp.",Phân tích hệ thống; Quản lý,Cao
+7510606,Quản lý công nghiệp,Kỹ thuật – quản lý,"Quản lý hoạt động sản xuất, vận hành và nguồn lực trong doanh nghiệp công nghiệp.",Quản lý sản xuất; Điều phối,Cao
+7520116,Kỹ thuật cơ điện tử ứng dụng,Kỹ thuật cơ khí – điện tử,"Ứng dụng cơ điện tử trong tự động hóa và sản xuất thông minh.",Cơ điện tử; Tự động hóa,Cao
+7520219,Kỹ thuật điều khiển thông minh,Kỹ thuật điện – tự động hóa,"Thiết kế và triển khai các hệ thống điều khiển thông minh.",Điều khiển; AI,Cao
+7520220,Kỹ thuật hệ thống nhúng,Kỹ thuật điện – CNTT,"Thiết kế phần mềm và phần cứng cho hệ thống nhúng.",Nhúng; Lập trình,Cao
+7520221,Kỹ thuật robot và tự động hóa,Kỹ thuật tự động hóa,"Thiết kế, lập trình và vận hành robot và dây chuyền tự động.",Robot; Tự động hóa,Rất cao
+7520222,Kỹ thuật năng lượng tái tạo,Kỹ thuật năng lượng,"Phát triển và vận hành hệ thống năng lượng tái tạo.",Năng lượng; Phân tích,Cao
+7540101,Công nghệ thực phẩm,Công nghệ thực phẩm,"Chế biến, bảo quản và kiểm soát chất lượng thực phẩm.",Công nghệ thực phẩm; Kiểm soát chất lượng,Cao
+7540102,Công nghệ sau thu hoạch,Công nghệ thực phẩm,"Bảo quản, chế biến nông sản sau thu hoạch nhằm nâng cao giá trị.",Công nghệ bảo quản; Phân tích,Trung bình
+7540103,Công nghệ sinh học thực phẩm,Công nghệ thực phẩm,"Ứng dụng công nghệ sinh học trong chế biến và bảo quản thực phẩm.",Sinh học; Công nghệ,Cao
+7620101,Nông học,Nông nghiệp,"Nghiên cứu và ứng dụng kỹ thuật trồng trọt và sản xuất nông nghiệp.",Nông học; Kỹ thuật canh tác,Trung bình
+7620102,Khoa học cây trồng,Nông nghiệp,"Nghiên cứu giống cây trồng và kỹ thuật canh tác.",Sinh học; Nghiên cứu,Trung bình
+7620201,Chăn nuôi,Nông nghiệp,"Nghiên cứu và ứng dụng kỹ thuật chăn nuôi gia súc, gia cầm.",Chăn nuôi; Quản lý,Trung bình
+7640102,Chăn nuôi thú y,Nông nghiệp,"Kết hợp chăn nuôi và thú y trong quản lý sức khỏe vật nuôi.",Chăn nuôi; Thú y,Trung bình
+7720102,Răng Hàm Mặt,Sức khỏe,"Đào tạo bác sĩ chẩn đoán và điều trị các bệnh lý răng hàm mặt.",Y khoa; Lâm sàng,Cao
+7720103,Y học cổ truyền,Sức khỏe,"Ứng dụng y học cổ truyền trong phòng và điều trị bệnh.",Y học cổ truyền; Lâm sàng,Ổn định
+7720202,Hóa dược,Sức khỏe,"Nghiên cứu hóa học phục vụ phát triển và sản xuất thuốc.",Hóa học; Nghiên cứu,Cao
+7720302,Hộ sinh,Sức khỏe,"Chăm sóc sức khỏe sinh sản cho phụ nữ và trẻ sơ sinh.",Chăm sóc y tế; Giao tiếp,Cao
+7720401,Y học dự phòng,Sức khỏe,"Phòng chống dịch bệnh, bảo vệ và nâng cao sức khỏe cộng đồng.",Y tế dự phòng; Phân tích dịch tễ,Cao
+7720402,Y tế công cộng,Sức khỏe,"Nghiên cứu, quản lý và triển khai các chương trình y tế cộng đồng.",Quản lý y tế; Phân tích,Cao
+7720601,Dinh dưỡng,Sức khỏe,"Đánh giá và xây dựng chế độ dinh dưỡng cho cá nhân và cộng đồng.",Dinh dưỡng; Tư vấn,Cao
+7720701,Kỹ thuật hình ảnh y học,Sức khỏe,"Vận hành và phân tích các kỹ thuật chẩn đoán hình ảnh y khoa.",Hình ảnh y học; Thiết bị y tế,Cao
+7720702,Kỹ thuật xét nghiệm y học,Sức khỏe,"Thực hiện xét nghiệm phục vụ chẩn đoán, theo dõi và điều trị bệnh.",Xét nghiệm; Phân tích sinh học,Cao
+7720801,Vật lý y khoa,Sức khỏe,"Ứng dụng vật lý trong chẩn đoán và điều trị y khoa.",Vật lý; Thiết bị y tế,Ngách
+7720901,Quản lý bệnh viện,Sức khỏe,"Quản lý, điều hành hoạt động khám chữa bệnh và cơ sở y tế.",Quản lý y tế; Điều hành,Cao
+7721001,Công nghệ sinh học y dược,Sức khỏe,"Ứng dụng công nghệ sinh học trong nghiên cứu, sản xuất y dược.",Sinh học; Công nghệ,Cao
+7721101,Kỹ thuật phục hồi chức năng,Sức khỏe,"Hỗ trợ phục hồi chức năng vận động và sức khỏe cho người bệnh.",Phục hồi chức năng; Chăm sóc,Cao
+7721201,Khúc xạ nhãn khoa,Sức khỏe,"Đo khúc xạ, tư vấn và hỗ trợ chăm sóc thị lực.",Khúc xạ; Chăm sóc mắt,Cao
+7721301,Công nghệ kỹ thuật điện tử y sinh,Sức khỏe,"Thiết kế, vận hành thiết bị điện tử và công nghệ y sinh.",Điện tử y sinh; Thiết bị y tế,Cao
+7721401,Công nghệ thẩm mỹ,Sức khỏe,"Ứng dụng công nghệ trong chăm sóc và thẩm mỹ y khoa.",Thẩm mỹ; Chăm sóc da,Trung bình
+7810501,Quốc tế học,Xã hội học,"Nghiên cứu các vấn đề quốc tế, khu vực và toàn cầu.",Phân tích quốc tế; Ngoại ngữ,Trung bình
+7220301,Ngôn ngữ học,Xã hội và nhân văn,"Nghiên cứu cấu trúc, chức năng và sự phát triển của ngôn ngữ.",Ngôn ngữ học; Phân tích,Ngách
+7220401,Văn học,Xã hội và nhân văn,"Nghiên cứu tác phẩm văn học và lý luận văn học.",Phân tích văn bản; Nghiên cứu,Ngách
+7220501,Lịch sử,Xã hội và nhân văn,"Nghiên cứu các sự kiện, tiến trình lịch sử và xã hội.",Nghiên cứu lịch sử; Phân tích,Ngách
+7220601,Triết học,Xã hội và nhân văn,"Nghiên cứu các học thuyết triết học và tư duy triết lý.",Tư duy triết học; Phân tích,Ngách
+7220701,Tôn giáo học,Xã hội và nhân văn,"Nghiên cứu tôn giáo, tín ngưỡng và đời sống tinh thần.",Nghiên cứu xã hội; Phân tích,Ngách
+7240201,Âm nhạc học,Nghệ thuật,"Nghiên cứu lý luận, lịch sử và thực hành âm nhạc.",Âm nhạc; Sáng tạo,Trung bình
+7240301,Sân khấu điện ảnh,Nghệ thuật,"Đào tạo và nghiên cứu nghệ thuật sân khấu và điện ảnh.",Biểu diễn; Sáng tạo,Trung bình
+7240401,Mỹ thuật ứng dụng,Nghệ thuật,"Ứng dụng mỹ thuật trong thiết kế và sản phẩm sáng tạo.",Thiết kế; Mỹ thuật,Cao
+7210201,Công nghệ may,Thiết kế – công nghệ,"Thiết kế, sản xuất và quản lý sản phẩm may mặc.",Công nghệ may; Quản lý sản xuất,Cao
+7210301,Công nghệ da giày,Thiết kế – công nghệ,"Thiết kế, sản xuất và quản lý sản phẩm da giày.",Công nghệ da giày; Sản xuất,Cao
+7320201,Thông tin – thư viện,Khoa học thông tin,"Tổ chức, quản lý và khai thác nguồn thông tin, thư viện.",Quản lý thông tin; Lưu trữ,Ổn định
+7320301,Quản lý thông tin truyền thông,Báo chí và truyền thông,"Quản lý, tổ chức và khai thác thông tin truyền thông trên các nền tảng.",Quản lý truyền thông; Phân tích,Cao
+7320302,Truyền thông quốc tế,Báo chí và truyền thông,"Nghiên cứu và triển khai hoạt động truyền thông trong môi trường quốc tế.",Ngoại ngữ; Truyền thông,Cao
+7340128,Phân tích tài chính,Kinh doanh và quản lý,"Phân tích báo cáo tài chính và hỗ trợ quyết định đầu tư, kinh doanh.",Phân tích tài chính; Kế toán,Cao
+7340129,Quản trị kinh doanh số,Kinh doanh và quản lý,"Quản lý hoạt động kinh doanh trên nền tảng số và công nghệ số.",Kinh doanh số; Phân tích dữ liệu,Rất cao
+7340130,Quản trị marketing số,Kinh doanh và quản lý,"Xây dựng và triển khai chiến lược marketing trên nền tảng số.",Marketing số; Phân tích,Cao
+7340131,Quản trị bán lẻ,Kinh doanh và quản lý,"Quản lý hệ thống bán lẻ, chuỗi cửa hàng và trải nghiệm khách hàng.",Quản lý bán lẻ; Dịch vụ,Cao
+7340132,Quản trị dịch vụ,Kinh doanh và quản lý,"Quản lý chất lượng và hiệu quả cung cấp dịch vụ.",Quản lý dịch vụ; Điều hành,Cao
+7340133,Quản trị doanh nghiệp nhỏ và vừa,Kinh doanh và quản lý,"Quản lý và phát triển doanh nghiệp quy mô nhỏ và vừa.",Quản lý doanh nghiệp; Chiến lược,Cao
+7380201,Luật quốc tế,Pháp luật,"Nghiên cứu và áp dụng pháp luật quốc tế trong quan hệ đối ngoại.",Pháp lý; Ngoại ngữ,Ngách
+7380202,Luật thương mại quốc tế,Pháp luật,"Áp dụng pháp luật trong thương mại và kinh doanh quốc tế.",Pháp luật thương mại; Phân tích,Cao
+7420301,Hóa học,Hóa học,"Nghiên cứu cấu trúc, tính chất và phản ứng của các chất hóa học.",Hóa học; Thí nghiệm,Trung bình
+7420302,Hóa học ứng dụng,Hóa học,"Ứng dụng hóa học trong sản xuất và công nghiệp.",Hóa học ứng dụng; Phân tích,Cao
+7440401,Khoa học khí tượng và khí hậu,Khoa học trái đất,"Nghiên cứu khí tượng, thời tiết và biến đổi khí hậu.",Phân tích khí hậu; Mô hình hóa,Cao
+7440402,Khí tượng và khí hậu học,Khoa học trái đất,"Nghiên cứu khí hậu và dự báo thời tiết.",Khí tượng; Phân tích,Trung bình
+7460201,Thống kê,Toán – thống kê,"Thu thập, xử lý và phân tích dữ liệu thống kê.",Thống kê; Phân tích dữ liệu,Cao
+7460202,Toán tin,Toán – CNTT,"Kết hợp toán học và công nghệ thông tin trong phân tích và lập trình.",Toán; Lập trình,Cao
+7480124,Quản lý dữ liệu,Công nghệ thông tin,"Quản lý, lưu trữ và khai thác dữ liệu trong tổ chức.",Quản lý dữ liệu; CNTT,Cao
+7480125,Phân tích hệ thống thông tin,Công nghệ thông tin,"Phân tích yêu cầu và thiết kế hệ thống thông tin.",Phân tích hệ thống; CNTT,Cao
+7510304,Công nghệ kỹ thuật điện,Công nghệ điện,"Thiết kế, vận hành và bảo trì hệ thống điện công nghiệp.",Điện công nghiệp; Bảo trì,Cao
+7510305,Công nghệ kỹ thuật điện tử,Công nghệ điện tử,"Thiết kế và vận hành hệ thống điện tử và thiết bị điện tử.",Điện tử; Phân tích,Cao
+7520223,Kỹ thuật tự động hóa thông minh,Kỹ thuật tự động hóa,"Thiết kế hệ thống tự động hóa tích hợp trí tuệ nhân tạo.",Tự động hóa; AI,Rất cao
+7540201,Công nghệ chế biến thủy sản,Công nghệ thực phẩm,"Chế biến, bảo quản và kiểm soát chất lượng thủy sản.",Công nghệ thực phẩm; Kiểm soát chất lượng,Cao
+7540202,Công nghệ đồ uống,Công nghệ thực phẩm,"Sản xuất và kiểm soát chất lượng đồ uống.",Công nghệ đồ uống; Kiểm soát,Cao
+7620301,Nuôi trồng thủy sản,Nông nghiệp,"Nghiên cứu và ứng dụng kỹ thuật nuôi trồng thủy sản.",Nuôi trồng; Quản lý,Trung bình
+7640103,Thú y thủy sản,Nông nghiệp,"Chẩn đoán và phòng bệnh cho động vật thủy sản.",Thú y; Thủy sản,Trung bình
+7721501,Dược liệu và hợp chất thiên nhiên,Sức khỏe,"Nghiên cứu dược liệu và hợp chất có nguồn gốc tự nhiên.",Dược liệu; Nghiên cứu,Cao
+7721601,Dược liệu,Sức khỏe,"Nghiên cứu, trồng trọt, khai thác và phát triển nguồn dược liệu phục vụ y dược.",Dược liệu; Nghiên cứu,Cao
+7721701,Y học gia đình,Sức khỏe,"Chăm sóc sức khỏe ban đầu, toàn diện và liên tục cho cá nhân và gia đình.",Y học gia đình; Lâm sàng,Cao
+7721801,Công nghệ xét nghiệm y học,Sức khỏe,"Ứng dụng công nghệ trong phân tích, xét nghiệm và chẩn đoán y khoa.",Xét nghiệm; Công nghệ,Cao
+7721901,Công nghệ sinh học y sinh,Sức khỏe,"Ứng dụng công nghệ sinh học trong nghiên cứu và phát triển y sinh.",Sinh học; Công nghệ,Cao
+7810601,Quản lý du lịch sinh thái,Dịch vụ du lịch,"Quản lý và phát triển du lịch gắn với bảo tồn thiên nhiên và sinh thái.",Du lịch sinh thái; Quản lý,Trung bình
+7810602,Tài nguyên và du lịch sinh thái,Dịch vụ du lịch,"Nghiên cứu tài nguyên thiên nhiên và ứng dụng trong phát triển du lịch sinh thái.",Tài nguyên; Du lịch,Trung bình
+7810603,Văn hóa và du lịch,Dịch vụ du lịch,"Nghiên cứu văn hóa và ứng dụng trong phát triển sản phẩm du lịch.",Văn hóa; Du lịch,Trung bình
+7311001,Phát triển bền vững,Khoa học liên ngành,"Nghiên cứu các giải pháp phát triển kinh tế - xã hội gắn với bảo vệ môi trường.",Phân tích chính sách; Phát triển,Cao
+7311101,Kinh tế tài nguyên và môi trường,Kinh tế học,"Nghiên cứu khai thác, sử dụng tài nguyên và bảo vệ môi trường.",Kinh tế môi trường; Phân tích,Cao
+7311201,Kinh tế đầu tư,Kinh tế học,"Phân tích và quản lý hoạt động đầu tư trong nền kinh tế.",Phân tích đầu tư; Quản lý,Cao
+7340134,Quản trị bất động sản,Kinh doanh và quản lý,"Quản lý, khai thác và phát triển tài sản và dự án bất động sản.",Bất động sản; Quản lý,Cao
+7340135,Quản trị tài sản,Kinh doanh và quản lý,"Quản lý và tối ưu hóa giá trị tài sản của tổ chức và cá nhân.",Quản lý tài sản; Phân tích,Cao
+7340136,Quản trị tài chính doanh nghiệp,Kinh doanh và quản lý,"Quản lý tài chính, vốn và hiệu quả hoạt động doanh nghiệp.",Tài chính doanh nghiệp; Phân tích,Cao
+7340137,Quản trị ngân hàng,Kinh doanh và quản lý,"Quản lý hoạt động kinh doanh và rủi ro trong ngân hàng.",Ngân hàng; Quản lý rủi ro,Cao
+7340138,Quản trị bảo hiểm,Kinh doanh và quản lý,"Quản lý sản phẩm, nghiệp vụ và rủi ro trong lĩnh vực bảo hiểm.",Bảo hiểm; Quản lý rủi ro,Cao
+7340139,Quản trị đầu tư,Kinh doanh và quản lý,"Quản lý danh mục đầu tư và chiến lược đầu tư.",Đầu tư; Phân tích,Cao
+7380301,Luật dân sự,Pháp luật,"Nghiên cứu và áp dụng pháp luật dân sự trong đời sống xã hội.",Pháp luật dân sự; Phân tích,Ổn định
+7380302,Luật hình sự,Pháp luật,"Nghiên cứu và áp dụng pháp luật hình sự trong phòng chống tội phạm.",Pháp luật hình sự; Phân tích,Ổn định
+7380303,Luật hành chính,Pháp luật,"Áp dụng pháp luật trong quản lý hành chính nhà nước.",Pháp luật hành chính; Quản lý,Ổn định
+7420401,Địa chất môi trường,Khoa học trái đất,"Nghiên cứu môi trường địa chất và phòng ngừa tai biến thiên nhiên.",Địa chất; Môi trường,Trung bình
+7420402,Địa vật lý,Khoa học trái đất,"Nghiên cứu cấu trúc Trái đất bằng phương pháp vật lý.",Địa vật lý; Phân tích,Ngách
+7440501,Hải dương học,Khoa học trái đất,"Nghiên cứu biển, đại dương và các quá trình hải dương.",Hải dương; Phân tích,Ngách
+7440502,Khoa học biển,Khoa học trái đất,"Nghiên cứu tổng hợp tài nguyên, môi trường và hệ sinh thái biển.",Khoa học biển; Nghiên cứu,Ngách
+7460301,Toán kinh tế,Toán – kinh tế,"Ứng dụng toán học trong phân tích và dự báo kinh tế.",Toán ứng dụng; Phân tích,Cao
+7460302,Toán tài chính,Toán – kinh tế,"Ứng dụng toán học trong định giá tài sản, quản lý rủi ro và tài chính.",Toán tài chính; Phân tích,Cao
+7460303,Toán bảo hiểm,Toán – kinh tế,"Ứng dụng toán học và xác suất trong định phí và quản lý bảo hiểm.",Toán xác suất; Phân tích,Cao
+7480126,Phát triển phần mềm,Công nghệ thông tin,"Phát triển ứng dụng phần mềm cho doanh nghiệp và người dùng.",Lập trình; Phát triển phần mềm,Cao
+7480127,Kiểm thử phần mềm,Công nghệ thông tin,"Kiểm thử, đảm bảo chất lượng và an toàn phần mềm.",Kiểm thử; Đảm bảo chất lượng,Cao
+7480128,Công nghệ chuỗi khối (Blockchain),Công nghệ thông tin,"Thiết kế và triển khai hệ thống blockchain và ứng dụng phân tán.",Blockchain; Lập trình,Rất cao
+7480129,Điện toán đám mây,Công nghệ thông tin,"Triển khai và quản lý hạ tầng, dịch vụ điện toán đám mây.",Cloud; Hạ tầng,Cao
+7480130,Thực tế ảo và tăng cường (VR/AR),Công nghệ thông tin,"Phát triển ứng dụng thực tế ảo và tăng cường trong nhiều lĩnh vực.",VR/AR; Sáng tạo,Cao
+7510211,Kỹ thuật khuôn mẫu,Kỹ thuật cơ khí,"Thiết kế và chế tạo khuôn mẫu phục vụ sản xuất công nghiệp.",Thiết kế khuôn; Cơ khí,Cao
+7510212,Kỹ thuật vật liệu kim loại,Kỹ thuật vật liệu,"Nghiên cứu và ứng dụng vật liệu kim loại trong kỹ thuật.",Vật liệu kim loại; Phân tích,Cao
+7510213,Kỹ thuật vật liệu polymer,Kỹ thuật vật liệu,"Nghiên cứu và ứng dụng vật liệu polymer và composite.",Vật liệu polymer; Công nghệ,Cao
+7520224,Kỹ thuật điện thông minh,Kỹ thuật điện – tự động hóa,"Thiết kế hệ thống điện thông minh và lưới điện hiện đại.",Điện thông minh; Điều khiển,Cao
+7520225,Kỹ thuật điều khiển và robot,Kỹ thuật tự động hóa,"Kết hợp điều khiển tự động và robot trong sản xuất.",Điều khiển; Robot,Rất cao
+7540301,Công nghệ sinh học môi trường,Công nghệ sinh học,"Ứng dụng công nghệ sinh học trong xử lý môi trường.",Sinh học; Môi trường,Cao
+7540302,Công nghệ vi sinh,Công nghệ sinh học,"Nghiên cứu và ứng dụng vi sinh trong sản xuất và môi trường.",Vi sinh; Thí nghiệm,Cao
+7620401,Khoa học đất,Nông nghiệp,"Nghiên cứu đất đai và quản lý tài nguyên đất.",Khoa học đất; Phân tích,Trung bình
+7620501,Lâm nghiệp,Nông nghiệp,"Quản lý, bảo vệ và phát triển rừng bền vững.",Lâm nghiệp; Quản lý,Trung bình
+7620601,Quản lý tài nguyên rừng,Nông nghiệp,"Quản lý và khai thác bền vững tài nguyên rừng.",Quản lý tài nguyên; Phân tích,Trung bình
+7640201,Thú y công cộng,Nông nghiệp,"Quản lý sức khỏe động vật gắn với an toàn thực phẩm.",Thú y; Quản lý,Cao
+7810701,Quản lý khách sạn cao cấp,Dịch vụ du lịch,"Quản lý vận hành khách sạn cao cấp và dịch vụ lưu trú cao cấp.",Quản lý dịch vụ; Điều hành,Trung bình
+7810702,Quản trị resort cao cấp,Dịch vụ du lịch,"Quản lý vận hành resort và khu nghỉ dưỡng cao cấp.",Quản lý resort; Điều hành,Trung bình
+7810703,Quản lý sự kiện và giải trí,Dịch vụ du lịch,"Tổ chức và quản lý sự kiện, chương trình giải trí.",Tổ chức sự kiện; Quản lý,Trung bình
+7220801,Văn hóa học,Xã hội và nhân văn,"Nghiên cứu văn hóa, bản sắc và đời sống văn hóa xã hội.",Nghiên cứu văn hóa; Phân tích,Ngách
+7220901,Việt Nam học,Xã hội và nhân văn,"Nghiên cứu lịch sử, văn hóa và xã hội Việt Nam.",Nghiên cứu liên ngành; Phân tích,Ngách
+7221001,Đông phương học,Xã hội và nhân văn,"Nghiên cứu văn hóa, lịch sử và xã hội các nước phương Đông.",Nghiên cứu khu vực; Ngoại ngữ,Ngách
+7221101,Hàn Quốc học,Xã hội và nhân văn,"Nghiên cứu ngôn ngữ, văn hóa, lịch sử và xã hội Hàn Quốc.",Nghiên cứu khu vực; Ngoại ngữ,Ngách
+7221201,Nhật Bản học,Xã hội và nhân văn,"Nghiên cứu ngôn ngữ, văn hóa, lịch sử và xã hội Nhật Bản.",Nghiên cứu khu vực; Ngoại ngữ,Ngách
+7221301,Trung Quốc học,Xã hội và nhân văn,"Nghiên cứu ngôn ngữ, văn hóa, lịch sử và xã hội Trung Quốc.",Nghiên cứu khu vực; Ngoại ngữ,Ngách
+7221401,Đông Nam Á học,Xã hội và nhân văn,"Nghiên cứu khu vực Đông Nam Á về văn hóa, chính trị và kinh tế.",Nghiên cứu khu vực; Phân tích,Ngách
+7221501,Châu Á học,Xã hội và nhân văn,"Nghiên cứu các vấn đề khu vực châu Á trong bối cảnh toàn cầu.",Phân tích khu vực; Ngoại ngữ,Ngách
+7221601,Châu Âu học,Xã hội và nhân văn,"Nghiên cứu lịch sử, văn hóa và xã hội các nước châu Âu.",Phân tích khu vực; Ngoại ngữ,Ngách
+7311301,Phân tích chính sách công,Khoa học chính sách,"Phân tích, đánh giá và đề xuất chính sách công trong quản lý nhà nước.",Phân tích chính sách; Nghiên cứu,Ổn định
+7311401,Quản trị công,Khoa học chính sách,"Quản lý hoạt động của khu vực công và cung cấp dịch vụ công.",Quản lý công; Điều hành,Ổn định
+7311501,Quản trị phát triển,Khoa học chính sách,"Quản lý các chương trình và dự án phát triển kinh tế – xã hội.",Quản lý dự án; Phân tích,Cao
+7320401,Sản xuất nội dung số,Báo chí và truyền thông,"Sáng tạo, sản xuất và quản lý nội dung số trên các nền tảng.",Sáng tạo nội dung; Công nghệ,Cao
+7320402,Truyền thông số,Báo chí và truyền thông,"Xây dựng và triển khai chiến lược truyền thông trên môi trường số.",Truyền thông số; Phân tích,Cao
+7320403,Truyền thông dữ liệu,Báo chí và truyền thông,"Khai thác dữ liệu phục vụ hoạt động truyền thông và báo chí.",Phân tích dữ liệu; Truyền thông,Cao
+7340140,Quản trị khởi nghiệp,Kinh doanh và quản lý,"Xây dựng và phát triển doanh nghiệp khởi nghiệp sáng tạo.",Khởi nghiệp; Chiến lược,Cao
+7340141,Quản trị đổi mới công nghệ,Kinh doanh và quản lý,"Quản lý quá trình đổi mới công nghệ trong tổ chức.",Quản lý công nghệ; Đổi mới,Cao
+7340142,Quản trị kinh doanh quốc tế nâng cao,Kinh doanh và quản lý,"Quản lý hoạt động kinh doanh quốc tế ở mức chuyên sâu.",Kinh doanh quốc tế; Phân tích,Cao
+7340143,Quản trị thương mại quốc tế,Kinh doanh và quản lý,"Quản lý hoạt động thương mại và logistics quốc tế.",Thương mại quốc tế; Logistics,Cao
+7380401,Luật công nghệ thông tin,Pháp luật,"Áp dụng pháp luật trong lĩnh vực công nghệ thông tin và chuyển đổi số.",Pháp luật CNTT; Phân tích,Cao
+7380402,Luật sở hữu trí tuệ,Pháp luật,"Bảo hộ và khai thác quyền sở hữu trí tuệ.",Sở hữu trí tuệ; Pháp lý,Cao
+7420501,Khoa học vật liệu tiên tiến,Khoa học vật liệu,"Nghiên cứu vật liệu mới, vật liệu thông minh và vật liệu tiên tiến.",Vật liệu tiên tiến; Nghiên cứu,Cao
+7440601,Khoa học biến đổi khí hậu,Khoa học trái đất,"Nghiên cứu nguyên nhân, tác động và giải pháp thích ứng biến đổi khí hậu.",Phân tích khí hậu; Mô hình hóa,Cao
+7460401,Toán ứng dụng trong khoa học dữ liệu,Toán – CNTT,"Ứng dụng toán học trong phân tích dữ liệu và trí tuệ nhân tạo.",Toán ứng dụng; Phân tích dữ liệu,Cao
+7480131,Quản trị hệ thống thông tin,Công nghệ thông tin,"Quản lý, vận hành và tối ưu hệ thống thông tin trong tổ chức.",Quản trị hệ thống; CNTT,Cao
+7480132,Khoa học máy tính ứng dụng,Công nghệ thông tin,"Ứng dụng khoa học máy tính trong giải quyết bài toán thực tiễn.",Thuật toán; Lập trình,Cao
+7510214,Kỹ thuật sản xuất thông minh,Kỹ thuật công nghiệp,"Thiết kế và vận hành hệ thống sản xuất thông minh.",Sản xuất thông minh; Tự động hóa,Rất cao
+7510215,Kỹ thuật logistics và vận tải,Kỹ thuật – quản lý,"Thiết kế, vận hành và tối ưu hệ thống logistics và vận tải.",Logistics; Phân tích,Cao
+7510216,Kỹ thuật hệ thống sản xuất,Kỹ thuật công nghiệp,"Thiết kế và tối ưu hóa hệ thống sản xuất công nghiệp.",Phân tích hệ thống; Quản lý,Cao
+7510217,Kỹ thuật an toàn công nghiệp,Kỹ thuật công nghiệp,"Đảm bảo an toàn lao động và phòng ngừa rủi ro trong sản xuất.",An toàn lao động; Quản lý,Cao
+7510218,Kỹ thuật môi trường,Kỹ thuật môi trường,"Thiết kế và vận hành hệ thống xử lý môi trường.",Môi trường; Phân tích,Cao
+7510219,Kỹ thuật cấp thoát nước,Kỹ thuật môi trường,"Thiết kế và quản lý hệ thống cấp nước và thoát nước.",Cấp thoát nước; Kỹ thuật,Cao
+7520226,Kỹ thuật điện công nghiệp,Kỹ thuật điện,"Thiết kế, vận hành và bảo trì hệ thống điện công nghiệp.",Điện công nghiệp; Bảo trì,Cao
+7520227,Kỹ thuật điện dân dụng,Kỹ thuật điện,"Thiết kế và quản lý hệ thống điện dân dụng và tòa nhà.",Điện dân dụng; Thiết kế,Cao
+7520228,Kỹ thuật điều khiển công nghiệp,Kỹ thuật tự động hóa,"Thiết kế và vận hành hệ thống điều khiển trong nhà máy.",Điều khiển; PLC,Cao
+7520229,Kỹ thuật tự động hóa sản xuất,Kỹ thuật tự động hóa,"Tự động hóa dây chuyền và quy trình sản xuất.",Tự động hóa; Điều khiển,Rất cao
+7520230,Kỹ thuật robot công nghiệp,Kỹ thuật tự động hóa,"Thiết kế, lập trình và vận hành robot công nghiệp.",Robot công nghiệp; Lập trình,Rất cao
+7540303,Công nghệ sinh học công nghiệp,Công nghệ sinh học,"Ứng dụng công nghệ sinh học trong sản xuất công nghiệp.",Sinh học; Công nghệ,Cao
+7540304,Công nghệ sinh học nông nghiệp ứng dụng,Công nghệ sinh học,"Ứng dụng sinh học trong sản xuất nông nghiệp công nghệ cao.",Sinh học; Nông nghiệp,Cao
+7540305,Công nghệ sinh học môi trường ứng dụng,Công nghệ sinh học,"Ứng dụng sinh học trong xử lý môi trường.",Sinh học; Môi trường,Cao
+7620701,Khoa học thủy sản,Nông nghiệp,"Nghiên cứu sinh học và khai thác nguồn lợi thủy sản.",Thủy sản; Nghiên cứu,Trung bình
+7620702,Quản lý thủy sản,Nông nghiệp,"Quản lý khai thác và phát triển bền vững nguồn lợi thủy sản.",Quản lý thủy sản; Phân tích,Trung bình
+7640202,Thú y thực phẩm,Nông nghiệp,"Đảm bảo an toàn thực phẩm có nguồn gốc động vật.",Thú y; An toàn thực phẩm,Cao
+7722001,Y sinh học,Sức khỏe,"Nghiên cứu sinh học ứng dụng trong y học và công nghệ y sinh.",Sinh học y sinh; Nghiên cứu,Cao
+7722101,Công nghệ y sinh,Sức khỏe,"Phát triển và ứng dụng công nghệ trong chẩn đoán và điều trị y khoa.",Công nghệ y sinh; Thiết bị,Cao
+7722201,Kỹ thuật y sinh,Sức khỏe,"Thiết kế và vận hành thiết bị, hệ thống y sinh.",Kỹ thuật y sinh; Điện tử,Cao
+7722301,Quản lý chất lượng y tế,Sức khỏe,"Quản lý và cải tiến chất lượng dịch vụ y tế.",Quản lý chất lượng; Y tế,Cao
+7810801,Quản lý du lịch thông minh,Dịch vụ du lịch,"Ứng dụng công nghệ số trong quản lý và phát triển du lịch.",Du lịch thông minh; CNTT,Cao
+7810802,Quản trị khách sạn thông minh,Dịch vụ du lịch,"Ứng dụng công nghệ trong quản lý và vận hành khách sạn.",Quản lý khách sạn; Công nghệ,Cao
+7810803,Quản trị dịch vụ du lịch số,Dịch vụ du lịch,"Quản lý dịch vụ du lịch trên nền tảng số.",Du lịch số; Quản lý,Cao
+7311601,Nghiên cứu phát triển,Khoa học liên ngành,"Nghiên cứu và phát triển sản phẩm, công nghệ và giải pháp mới.",Nghiên cứu; Đổi mới,Cao
+7311701,Quản lý đổi mới sáng tạo,Khoa học liên ngành,"Quản lý hoạt động đổi mới sáng tạo trong tổ chức.",Đổi mới sáng tạo; Quản lý,Cao
+7311801,Quản lý khoa học và công nghệ,Khoa học liên ngành,"Quản lý hoạt động nghiên cứu, phát triển và ứng dụng khoa học – công nghệ.",Quản lý KH&CN; Phân tích,Cao
+7311901,Quản lý tài nguyên và môi trường,Khoa học liên ngành,"Quản lý, khai thác và bảo vệ tài nguyên gắn với phát triển bền vững.",Quản lý tài nguyên; Môi trường,Cao
+7440701,Thủy văn học,Khoa học trái đất,"Nghiên cứu chu trình nước, dòng chảy và tài nguyên nước.",Thủy văn; Phân tích,Trung bình
+7440702,Khoa học tài nguyên nước,Khoa học trái đất,"Nghiên cứu, quản lý và sử dụng bền vững tài nguyên nước.",Tài nguyên nước; Quản lý,Cao
+7440703,Kỹ thuật tài nguyên nước,Khoa học trái đất,"Thiết kế và vận hành các công trình khai thác, sử dụng tài nguyên nước.",Kỹ thuật thủy lợi; Thiết kế,Cao
+7440801,Khoa học địa lý,Khoa học trái đất,"Nghiên cứu tổng hợp tự nhiên, kinh tế – xã hội theo không gian lãnh thổ.",Phân tích không gian; GIS,Trung bình
+7440901,Khoa học môi trường biển,Khoa học trái đất,"Nghiên cứu môi trường biển và bảo vệ hệ sinh thái biển.",Môi trường biển; Phân tích,Ngách
+7510220,Kỹ thuật xây dựng công trình thủy lợi,Kỹ thuật xây dựng,"Thiết kế và thi công công trình thủy lợi, đê điều và hồ chứa.",Thủy lợi; Kỹ thuật xây dựng,Cao
+7510221,Kỹ thuật xây dựng công trình biển,Kỹ thuật xây dựng,"Thiết kế và thi công công trình biển và ngoài khơi.",Kỹ thuật biển; Xây dựng,Ngách
+7510222,Kỹ thuật giao thông đô thị,Kỹ thuật giao thông,"Thiết kế và quản lý hệ thống giao thông đô thị.",Giao thông đô thị; Quy hoạch,Cao
+7510223,Kỹ thuật đường sắt,Kỹ thuật giao thông,"Thiết kế, vận hành và bảo trì hệ thống đường sắt.",Kỹ thuật đường sắt; Bảo trì,Ngách
+7520231,Kỹ thuật điện tử công nghiệp,Kỹ thuật điện – điện tử,"Thiết kế và vận hành hệ thống điện tử trong công nghiệp.",Điện tử công nghiệp; Phân tích,Cao
+7520232,Kỹ thuật điện tử viễn thông ứng dụng,Kỹ thuật điện – viễn thông,"Ứng dụng điện tử và viễn thông trong hệ thống thông tin.",Viễn thông; Ứng dụng,Cao
+7520233,Kỹ thuật điều khiển nâng cao,Kỹ thuật tự động hóa,"Thiết kế hệ thống điều khiển nâng cao và tối ưu.",Điều khiển nâng cao; Phân tích,Cao
+7520234,Kỹ thuật robot dịch vụ,Kỹ thuật robot,"Thiết kế và vận hành robot phục vụ đời sống và dịch vụ.",Robot dịch vụ; Lập trình,Rất cao
+7520235,Kỹ thuật trí tuệ nhân tạo,Kỹ thuật AI,"Phát triển và ứng dụng AI trong hệ thống kỹ thuật.",AI kỹ thuật; Lập trình,Rất cao
+7540401,Công nghệ chế biến nông sản,Công nghệ thực phẩm,"Chế biến và nâng cao giá trị nông sản.",Chế biến nông sản; QC,Cao
+7540402,Công nghệ bảo quản nông sản,Công nghệ thực phẩm,"Bảo quản và kéo dài thời gian sử dụng nông sản.",Bảo quản; Công nghệ,Trung bình
+7620801,Kinh tế nông nghiệp,Nông nghiệp,"Phân tích và quản lý hoạt động sản xuất nông nghiệp.",Kinh tế nông nghiệp; Phân tích,Cao
+7620901,Phát triển nông thôn,Nông nghiệp,"Nghiên cứu và triển khai chương trình phát triển nông thôn.",Phát triển cộng đồng; Quản lý,Trung bình
+7810901,Quản lý du lịch cộng đồng,Dịch vụ du lịch,"Quản lý và phát triển du lịch gắn với cộng đồng địa phương.",Du lịch cộng đồng; Quản lý,Trung bình
+7810902,Du lịch bền vững,Dịch vụ du lịch,"Phát triển du lịch gắn với bảo vệ môi trường và văn hóa.",Du lịch bền vững; Phân tích,Trung bình
+7722401,Y tế số,Sức khỏe,"Ứng dụng công nghệ số trong quản lý và chăm sóc y tế.",Y tế số; CNTT,Rất cao
+7722501,Quản lý dữ liệu y tế,Sức khỏe,"Quản lý và phân tích dữ liệu trong hệ thống y tế.",Dữ liệu y tế; Phân tích,Cao
+7722601,Công nghệ sức khỏe,Sức khỏe,"Ứng dụng công nghệ trong chăm sóc và theo dõi sức khỏe.",Công nghệ sức khỏe; Thiết bị,Cao
+7722701,Quản lý an toàn người bệnh,Sức khỏe,"Quản lý và cải tiến an toàn người bệnh trong cơ sở khám chữa bệnh.",An toàn y tế; Quản lý,Cao
+7722801,Quản lý chất lượng phòng xét nghiệm,Sức khỏe,"Đảm bảo chất lượng và tiêu chuẩn hoạt động của phòng xét nghiệm y học.",Quản lý chất lượng; Xét nghiệm,Cao
+7722901,Công nghệ chăm sóc sức khỏe thông minh,Sức khỏe,"Ứng dụng công nghệ thông minh trong chăm sóc và theo dõi sức khỏe.",Chăm sóc sức khỏe; CNTT,Rất cao
+7312001,Khoa học dữ liệu xã hội,Xã hội và nhân văn,"Ứng dụng khoa học dữ liệu trong phân tích các vấn đề xã hội.",Phân tích dữ liệu; Xã hội học,Cao
+7312101,Phân tích chính sách xã hội,Xã hội và nhân văn,"Phân tích, đánh giá và đề xuất chính sách xã hội.",Phân tích chính sách; Nghiên cứu,Cao
+7312201,Quản lý văn hóa,Xã hội và nhân văn,"Quản lý hoạt động văn hóa, di sản và sáng tạo văn hóa.",Quản lý văn hóa; Điều hành,Trung bình
+7312301,Quản lý thể thao,Xã hội và nhân văn,"Quản lý, tổ chức và phát triển hoạt động thể dục thể thao.",Quản lý thể thao; Điều phối,Trung bình
+7240501,Nghệ thuật số,Nghệ thuật,"Sáng tạo và ứng dụng nghệ thuật trên nền tảng số.",Nghệ thuật số; Sáng tạo,Cao
+7210501,Thiết kế trải nghiệm người dùng (UX/UI),Thiết kế – công nghệ,"Thiết kế trải nghiệm và giao diện người dùng cho sản phẩm số.",UX/UI; Thiết kế,Cao
+7480133,Kỹ thuật trí tuệ nhân tạo ứng dụng,Công nghệ thông tin,"Ứng dụng AI trong các hệ thống và sản phẩm công nghệ.",AI; Lập trình,Rất cao
+
+
