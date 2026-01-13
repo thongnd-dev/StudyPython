@@ -281,9 +281,9 @@ elif st.session_state.phase == "CHAT":
             # Tùy chọn tải về hoặc lưu trữ (Tư duy AI bền vững)
             st.download_button("📩 Tải bản tóm tắt (txt)", data=res.choices[0].message.content, file_name="career_plan.txt")
 
-        if st.button("🔁 Làm trắc nghiệm mới", use_container_width=True):
-            reset_app_state()
-            st.rerun()
+    if st.button("🔁 Làm trắc nghiệm mới", use_container_width=True):
+        reset_app_state()
+        st.rerun()
 
 
 
