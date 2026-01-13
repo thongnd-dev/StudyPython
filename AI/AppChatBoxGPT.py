@@ -1,6 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 import pandas as pd
+import  os
 from utils import contains_pii, mask_pii
 
 def reset_app_state():
@@ -53,7 +54,14 @@ with st.sidebar:
 # --- CẤU HÌNH DỮ LIỆU ---
 @st.cache_data
 def load_career_data():
-    return pd.read_csv("Data/DanhMucNganh.csv")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(base_dir, "Data", "DanhMucNganh.csv")
+
+    if not os.path.exists(csv_path):
+        st.error(f"Không tìm thấy file CSV tại: {csv_path}")
+        st.stop()
+
+    return pd.read_csv(csv_path, encoding="utf-8")
 
 try:
     df_careers = load_career_data()
