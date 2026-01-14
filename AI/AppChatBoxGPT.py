@@ -161,7 +161,7 @@ if st.session_state.phase == "LIKERT":
                         st.session_state.current_q_idx = 0
                         st.session_state.chat_history.append({"role": "assistant", "content": summary})
                         st.rerun()
-        # Nút kết thúc (chỉ xuất hiện ở page cuối)
+        # Nút kết thúc
         with col2:
                 if st.button("🎯 Kết thúc & Nhận tư vấn", use_container_width=True):
                     st.session_state.answers[q['id']] = choice
