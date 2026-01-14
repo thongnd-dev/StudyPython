@@ -11,6 +11,11 @@ def reset_app_state():
     st.session_state.dynamic_questions = []
     st.session_state.chat_history = []
 
+def get_likert_page(questions, page, page_size=4):
+    start = page * page_size
+    end = start + page_size
+    return questions[start:end]
+
 #mã hóa thông tin nhạy cảm
 def sanitize_input(text: str) -> str:
     if contains_pii(text):
@@ -44,9 +49,7 @@ st.title("🤖 Trợ lý Tư vấn Nghề nghiệp")
 st.caption("Đồ án Tư duy AI 2026")
 
 
-
-
-# Nhập API Key (Bạn có thể lấy tại platform.openai.com)
+# API Key
 with st.sidebar:
     api_key = st.secrets.get("OPENAI_API_KEY")
 
@@ -91,13 +94,13 @@ likert_options = {1: 'Hoàn toàn không', 2: 'Không hứng thú', 3: 'Bình th
 # --- KHỞI TẠO STATE ---
 if 'phase' not in st.session_state:
     st.session_state.phase = "LIKERT"
-    st.session_state.current_q_idx = 0
+    st.session_state.current_page = 0
     st.session_state.answers = {}
     st.session_state.dynamic_questions = []
     st.session_state.chat_history = []
 
 # --- GIAI ĐOẠN 1: 12 CÂU LIKERT ---
-if st.session_state.phase == "LIKERT":
+'''if st.session_state.phase == "LIKERT":
     idx = st.session_state.current_q_idx
     q = questions[idx]
     st.title("🎯 Bước 1: Khảo sát xu hướng")
@@ -156,6 +159,55 @@ if st.session_state.phase == "LIKERT":
                     st.session_state.chat_history.append({"role": "assistant", "content": summary})
                     st.rerun()
 
+'''
+if st.session_state.phase == "LIKERT":
+
+    PAGE_SIZE = 4
+    total_pages = len(questions) // PAGE_SIZE
+    page = st.session_state.current_page
+
+    st.title("🎯 Khảo sát định hướng nghề nghiệp")
+    st.caption("Vui lòng trả lời nhanh các câu hỏi sau")
+
+    # Progress
+    st.progress((page + 1) / total_pages,
+                text=f"Màn {page + 1}/{total_pages}")
+
+    current_questions = get_likert_page(questions, page, PAGE_SIZE)
+
+    # Render 4 câu hỏi
+    for q in current_questions:
+        st.markdown(f"**{q['text']}**")
+        choice = st.radio(
+            label="",
+            options=list(likert_options.keys()),
+            format_func=lambda x: likert_options[x],
+            horizontal=True,
+            key=f"likert_{q['id']}"
+        )
+        st.session_state.answers[q['id']] = choice
+        st.divider()
+
+    # Kiểm tra đã trả lời đủ chưa
+    answered_all = all(
+        st.session_state.answers.get(q["id"]) is not None
+        for q in current_questions
+    )
+
+    col1, col2 = st.columns(2)
+
+    # Nút tiếp theo
+    with col1:
+        if st.button("➡️ Tiếp theo", disabled=not answered_all):
+            st.session_state.current_page += 1
+            st.rerun()
+
+    # Nút kết thúc (chỉ xuất hiện ở page cuối)
+    with col2:
+        if page == total_pages - 1:
+            if st.button("🎯 Kết thúc & Nhận tư vấn", use_container_width=True):
+                st.session_state.phase = "GOAL_ADVICE"
+                st.rerun()
 
 # --- GIAI ĐOẠN 2: 3 CÂU HỎI ĐỘNG ---
 elif st.session_state.phase == "INFO":
