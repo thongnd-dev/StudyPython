@@ -133,7 +133,7 @@ if st.session_state.phase == "LIKERT":
                 if not api_key:
                     st.warning("Cần API Key!")
                 else:
-                    with st.spinner("AI đang phân tích hồ sơ của bạn..."):
+                    with st.spinner("AI đang phân tích hồ sơ của bạn...", use_container_width=True):
                         client = OpenAI(api_key=api_key)
                         summary = "\n".join(
                              [f"- {questions[i]['text']}: {st.session_state.answers[questions[i]['id']]}" for i in
@@ -164,14 +164,88 @@ if st.session_state.phase == "LIKERT":
         # Nút kết thúc (chỉ xuất hiện ở page cuối)
         with col2:
                 if st.button("🎯 Kết thúc & Nhận tư vấn", use_container_width=True):
+                    st.session_state.answers[q['id']] = choice
                     st.session_state.phase = "GOAL_ADVICE"
                     st.rerun()
     else:
         if idx < len(questions) - 1:
-            st.session_state.current_q_idx += 1
+            if st.button("Tiếp theo ➡️", use_container_width=True):
+                st.session_state.answers[q['id']] = choice
+                st.session_state.current_q_idx += 1
+                st.rerun()
+
+elif st.session_state.phase == "GOAL_ADVICE":
+    st.title("🎯 Tư vấn xây dựng mục tiêu nghề nghiệp")
+    with st.spinner("AI đang tổng hợp bản kế hoạch sự nghiệp cho bạn..."):
+        client = OpenAI(api_key=api_key)
+        summary = "\n".join(
+            [f"- {questions[i]['text']}: {st.session_state.answers[questions[i]['id']]}" for i in range(12)])
+
+        st.session_state.dynamic_questions = questions
+        st.session_state.chat_history.append({"role": "assistant", "content": summary})
+
+        summary_prompt = f"""
+                    Dựa trên toàn bộ lịch sử trò chuyện, hãy đưa ra một bản tổng kết cuối cùng gồm:
+                    1. Top 3 nghề nghiệp phù hợp nhất (chọn từ danh sách ngành nghề: {career_list_text}).
+                    2. Phân tích ngắn gọn lý do (dựa trên sở thích và kỹ năng đã trao đổi).
+                    3. Lộ trình 3 bước cụ thể sinh viên cần thực hiện ngay trong năm 2026.
+                    Hãy trình bày thật chuyên nghiệp, sử dụng định dạng bảng hoặc danh sách.
+                    """
+
+        # Gửi lịch sử chat để AI có đủ ngữ cảnh tổng hợp
+        messages = st.session_state.chat_history + [{"role": "user", "content": summary_prompt}]
+        res = client.chat.completions.create(
+            model="gpt-5.2",
+            messages=messages
+        )
+
+        # Hiển thị kết quả tổng kết trong một khu vực nổi bật
+        st.success("✨ BẢN KẾ HOẠCH SỰ NGHIỆP CÁ NHÂN HÓA 2026")
+        st.markdown(res.choices[0].message.content)
+
+        # Tùy chọn tải về hoặc lưu trữ (Tư duy AI bền vững)
+        st.download_button("📩 Tải bản tóm tắt (txt)", data=res.choices[0].message.content,
+                           file_name="career_plan.txt")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button("🔍 Phỏng vấn sâu", use_container_width=True):
+            if not api_key:
+                st.warning("Cần API Key!")
+            else:
+                client = OpenAI(api_key=api_key)
+                summary = "\n".join(
+                    [f"- {questions[i]['text']}: {st.session_state.answers[questions[i]['id']]}" for i in
+                     range(12)])
+                prompt = (
+                    f"Dựa trên dữ liệu: {summary}. Bạn là Chuyên gia Tư vấn Hướng nghiệp AI. Bạn phải tuân thủ NGHIÊM NGẶT quy trình sau: "
+                    f"**GIAI ĐOẠN PHỎNG VẤN (Đúng 3 câu hỏi):**) "
+                    f"- Sau khi nhận kết quả trắc nghiệm (12 câu), bạn hãy đặt đúng 3 câu hỏi phỏng vấn sâu."
+                    f"-Đặt đúng 3 câu hỏi, trả về 3 dòng là 3 câu hỏi."
+                    f"- Câu hỏi phải dựa trực tiếp trên kết quả trắc nghiệm để làm rõ đam mê, kỹ năng hoặc mong muốn của người dùng."
+                    f"- KHÔNG đặt quá 3 câu hỏi.f"
+                    f"- Chỉ đưa ra 3 câu hỏi không cần bổ sung thêm tiềndđề hay câu cảm ơn"
+                    f"- Tập trung trả lời các câu hỏi của người dùng một cách hỗ trợ, trung lập và không phán xét."
+                    f"- Duy trì các tiêu chí: Đáng tin cậy, Công bằng, Bền vững, Minh bạch."
+                    f"PHONG CÁCH:"
+                    f"- Đồng cảm, thấu đáo, chuyên nghiệp."
+                    f"- Giải thích rõ ràng lý do tại sao bạn đưa ra nhận định."
+                    f"- Tránh ngôn ngữ khẳng định tuyệt đối (Dùng: 'Có vẻ như...', 'Một hướng đi tiềm năng là...').")
+                safe_prompt = sanitize_input(prompt)
+                res = client.chat.completions.create(model="gpt-5.2",
+                                                     messages=[{"role": "user", "content": safe_prompt}])
+                questions = [q for q in res.choices[0].message.content.strip().split('\n') if q.strip()]
+                st.session_state.dynamic_questions = questions
+                st.session_state.phase = "INFO"
+                st.session_state.current_q_idx = 0
+                st.session_state.chat_history.append({"role": "assistant", "content": summary})
+                st.rerun()
+
+    with col2:
+        if st.button("🔁 Làm lại khảo sát", use_container_width=True):
+            reset_app_state()
             st.rerun()
-
-
 
 # --- GIAI ĐOẠN 2: 3 CÂU HỎI ĐỘNG ---
 elif st.session_state.phase == "INFO":
@@ -251,16 +325,16 @@ elif st.session_state.phase == "CHAT":
         )
         # GỌI AI
         client = OpenAI(api_key=api_key)
-        st.session_state.chat_history.append({"role": "user", "content": user_input})
+        st.session_state.chat_history.append({"role": "user", "content": sanitize_input(user_input)})
+
         with st.chat_message("user"): st.write(user_input)
 
         messages = [{"role": "system",
                      "content": f"Dữ liệu ngành nghề: {career_list_text}"}] + st.session_state.chat_history
 
-        safe_messages = sanitize_input(messages)
         res = client.chat.completions.create(
                 model="gpt-5.2",
-                messages=safe_messages
+                messages=messages
         )
         assistant_reply = res.choices[0].message.content
         # Append ASSISTANT message
