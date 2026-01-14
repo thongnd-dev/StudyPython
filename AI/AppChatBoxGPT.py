@@ -94,13 +94,14 @@ likert_options = {1: 'Hoàn toàn không', 2: 'Không hứng thú', 3: 'Bình th
 # --- KHỞI TẠO STATE ---
 if 'phase' not in st.session_state:
     st.session_state.phase = "LIKERT"
-    st.session_state.current_page = 0
+    st.session_state.current_q_idx = 0
     st.session_state.answers = {}
     st.session_state.dynamic_questions = []
     st.session_state.chat_history = []
 
+
 # --- GIAI ĐOẠN 1: 12 CÂU LIKERT ---
-'''if st.session_state.phase == "LIKERT":
+if st.session_state.phase == "LIKERT":
     idx = st.session_state.current_q_idx
     q = questions[idx]
     st.title("🎯 Bước 1: Khảo sát xu hướng")
@@ -123,91 +124,56 @@ if 'phase' not in st.session_state:
 
     st.divider()
 
-    if st.button("Tiếp theo ➡️", use_container_width=True):
-        st.session_state.answers[q['id']] = choice
-        if idx < len(questions) - 1:
-            st.session_state.current_q_idx += 1
-            st.rerun()
-        else:
-            if not api_key:
-                st.warning("Cần API Key!")
-            else:
-                with st.spinner("AI đang phân tích hồ sơ của bạn..."):
-                    client = OpenAI(api_key=api_key)
-                    summary = "\n".join(
-                        [f"- {questions[i]['text']}: {st.session_state.answers[questions[i]['id']]}" for i in range(12)])
-                    prompt = (f"Dựa trên dữ liệu: {summary}. Bạn là Chuyên gia Tư vấn Hướng nghiệp AI. Bạn phải tuân thủ NGHIÊM NGẶT quy trình sau: "
-                              f"**GIAI ĐOẠN PHỎNG VẤN (Đúng 3 câu hỏi):**) "
-                                   f"- Sau khi nhận kết quả trắc nghiệm (12 câu), bạn hãy đặt đúng 3 câu hỏi phỏng vấn sâu."
-                                   f"-Đặt đúng 3 câu hỏi, trả về 3 dòng là 3 câu hỏi."
-                                   f"- Câu hỏi phải dựa trực tiếp trên kết quả trắc nghiệm để làm rõ đam mê, kỹ năng hoặc mong muốn của người dùng."
-                                   f"- KHÔNG đặt quá 3 câu hỏi.f"
-                                   f"- Chỉ đưa ra 3 câu hỏi không cần bổ sung thêm tiềndđề hay câu cảm ơn"
-                                   f"- Tập trung trả lời các câu hỏi của người dùng một cách hỗ trợ, trung lập và không phán xét."
-                                   f"- Duy trì các tiêu chí: Đáng tin cậy, Công bằng, Bền vững, Minh bạch."
-                              f"PHONG CÁCH:"
-                                    f"- Đồng cảm, thấu đáo, chuyên nghiệp."
-                                    f"- Giải thích rõ ràng lý do tại sao bạn đưa ra nhận định."
-                                    f"- Tránh ngôn ngữ khẳng định tuyệt đối (Dùng: 'Có vẻ như...', 'Một hướng đi tiềm năng là...').")
-                    safe_prompt = sanitize_input(prompt)
-                    res = client.chat.completions.create(model="gpt-5.2",
-                                                         messages=[{"role": "user", "content": safe_prompt}])
-                    questions = [q for q in res.choices[0].message.content.strip().split('\n') if q.strip()]
-                    st.session_state.dynamic_questions = questions
-                    st.session_state.phase = "INFO"
-                    st.session_state.current_q_idx = 0
-                    st.session_state.chat_history.append({"role": "assistant", "content": summary})
-                    st.rerun()
-
-'''
-if st.session_state.phase == "LIKERT":
-
-    PAGE_SIZE = 4
-    total_pages = len(questions) // PAGE_SIZE
-    page = st.session_state.current_page
-
-    st.title("🎯 Khảo sát định hướng nghề nghiệp")
-    st.caption("Vui lòng trả lời nhanh các câu hỏi sau")
-
-    # Progress
-    st.progress((page + 1) / total_pages,
-                text=f"Màn {page + 1}/{total_pages}")
-
-    current_questions = get_likert_page(questions, page, PAGE_SIZE)
-
-    # Render 4 câu hỏi
-    for q in current_questions:
-        st.markdown(f"**{q['text']}**")
-        choice = st.radio(
-            label="",
-            options=list(likert_options.keys()),
-            format_func=lambda x: likert_options[x],
-            horizontal=True,
-            key=f"likert_{q['id']}"
-        )
-        st.session_state.answers[q['id']] = choice
-        st.divider()
-
-    # Kiểm tra đã trả lời đủ chưa
-    answered_all = all(
-        st.session_state.answers.get(q["id"]) is not None
-        for q in current_questions
-    )
-
     col1, col2 = st.columns(2)
 
     # Nút tiếp theo
     with col1:
-        if st.button("➡️ Tiếp theo", disabled=not answered_all):
-            st.session_state.current_page += 1
-            st.rerun()
+        if st.button("Tiếp theo ➡️", use_container_width=True):
+            st.session_state.answers[q['id']] = choice
+            if idx < len(questions) - 1:
+                st.session_state.current_q_idx += 1
+                st.rerun()
+            else:
+                if not api_key:
+                    st.warning("Cần API Key!")
+                else:
+                    with st.spinner("AI đang phân tích hồ sơ của bạn..."):
+                        client = OpenAI(api_key=api_key)
+                        summary = "\n".join(
+                            [f"- {questions[i]['text']}: {st.session_state.answers[questions[i]['id']]}" for i in
+                             range(12)])
+                        prompt = (
+                            f"Dựa trên dữ liệu: {summary}. Bạn là Chuyên gia Tư vấn Hướng nghiệp AI. Bạn phải tuân thủ NGHIÊM NGẶT quy trình sau: "
+                            f"**GIAI ĐOẠN PHỎNG VẤN (Đúng 3 câu hỏi):**) "
+                            f"- Sau khi nhận kết quả trắc nghiệm (12 câu), bạn hãy đặt đúng 3 câu hỏi phỏng vấn sâu."
+                            f"-Đặt đúng 3 câu hỏi, trả về 3 dòng là 3 câu hỏi."
+                            f"- Câu hỏi phải dựa trực tiếp trên kết quả trắc nghiệm để làm rõ đam mê, kỹ năng hoặc mong muốn của người dùng."
+                            f"- KHÔNG đặt quá 3 câu hỏi.f"
+                            f"- Chỉ đưa ra 3 câu hỏi không cần bổ sung thêm tiềndđề hay câu cảm ơn"
+                            f"- Tập trung trả lời các câu hỏi của người dùng một cách hỗ trợ, trung lập và không phán xét."
+                            f"- Duy trì các tiêu chí: Đáng tin cậy, Công bằng, Bền vững, Minh bạch."
+                            f"PHONG CÁCH:"
+                            f"- Đồng cảm, thấu đáo, chuyên nghiệp."
+                            f"- Giải thích rõ ràng lý do tại sao bạn đưa ra nhận định."
+                            f"- Tránh ngôn ngữ khẳng định tuyệt đối (Dùng: 'Có vẻ như...', 'Một hướng đi tiềm năng là...').")
+                        safe_prompt = sanitize_input(prompt)
+                        res = client.chat.completions.create(model="gpt-5.2",
+                                                             messages=[{"role": "user", "content": safe_prompt}])
+                        questions = [q for q in res.choices[0].message.content.strip().split('\n') if q.strip()]
+                        st.session_state.dynamic_questions = questions
+                        st.session_state.phase = "INFO"
+                        st.session_state.current_q_idx = 0
+                        st.session_state.chat_history.append({"role": "assistant", "content": summary})
+                        st.rerun()
 
     # Nút kết thúc (chỉ xuất hiện ở page cuối)
     with col2:
-        if page == total_pages - 1:
+        if st.session_state.current_q_idx == len(questions) - 1:
             if st.button("🎯 Kết thúc & Nhận tư vấn", use_container_width=True):
                 st.session_state.phase = "GOAL_ADVICE"
                 st.rerun()
+
+
 
 # --- GIAI ĐOẠN 2: 3 CÂU HỎI ĐỘNG ---
 elif st.session_state.phase == "INFO":
