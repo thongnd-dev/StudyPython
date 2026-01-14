@@ -319,14 +319,15 @@ elif st.session_state.phase == "CHAT":
     # Xử lý khi người dùng chat tiếp
     if user_input:
         # Append USER message TRƯỚC
-        st.session_state.chat_history.append(
+        '''st.session_state.chat_history.append(
             {"role": "user", "content": user_input}
-        )
+        )'''
         # GỌI AI
         client = OpenAI(api_key=api_key)
-        st.session_state.chat_history.append({"role": "user", "content": sanitize_input(user_input)})
+        safe_user_input = sanitize_input(user_input)
+        st.session_state.chat_history.append({"role": "user", "content": safe_user_input})
 
-        with st.chat_message("user"): st.write(user_input)
+        with st.chat_message("user"): st.write(safe_user_input)
 
         messages = [{"role": "system",
                      "content": f"Dữ liệu ngành nghề: {career_list_text}"}] + st.session_state.chat_history
