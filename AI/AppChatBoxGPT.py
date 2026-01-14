@@ -129,11 +129,10 @@ if st.session_state.phase == "LIKERT":
         with col1:
             if st.button("Tiếp theo ➡️", use_container_width=True):
                 st.session_state.answers[q['id']] = choice
-
                 if not api_key:
                     st.warning("Cần API Key!")
                 else:
-                    with st.spinner("AI đang phân tích hồ sơ của bạn...", use_container_width=True):
+                    with st.spinner("AI đang phân tích hồ sơ của bạn..."):
                         client = OpenAI(api_key=api_key)
                         summary = "\n".join(
                              [f"- {questions[i]['text']}: {st.session_state.answers[questions[i]['id']]}" for i in
